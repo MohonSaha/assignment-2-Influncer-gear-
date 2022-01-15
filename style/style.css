@@ -91,7 +91,6 @@ h1{
     width: 300px;
     height: 450px;
     background-color: white;
-    /* box-shadow: 0.5px 0.5px 0.5px 0.5px gray; */
     padding: 10px 10px 10px 10px;
     border-radius: 5px;
 }
@@ -101,8 +100,10 @@ h1{
        margin-bottom: 0;
    }
    .rate{
-       font-size: 25px;
+       font-size: 23px;
        margin: 0;
+       font-weight:100;
+       color: rgba(0, 0, 0, 0.787);
    }
    .gear-info{
        margin-top: 5px;
@@ -132,6 +133,14 @@ h1{
        grid-row-gap: 25px;
        margin-left: 135px;
        margin-right: 125px;
+   }
+   .see-more, .see-button{
+       text-decoration: none;
+       font-size: 17px;
+       text-align: right;
+       justify-content: space-between;
+       margin-right: 100px;
+       margin-top: 30px;
    }
 
 
