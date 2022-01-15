@@ -89,24 +89,28 @@ h1{
    }
    .collection{
     width: 300px;
-    height: 500px;
-    box-shadow: 2px 2px 2px 2px gray;
+    height: 450px;
+    background-color: white;
+    /* box-shadow: 0.5px 0.5px 0.5px 0.5px gray; */
     padding: 10px 10px 10px 10px;
     border-radius: 5px;
 }
+
 
    .item-name{
        margin-bottom: 0;
    }
    .rate{
-       font-size: 30px;
+       font-size: 25px;
        margin: 0;
    }
    .gear-info{
-       margin-top: 10px;
+       margin-top: 5px;
+       color: gray;
    }
    span{
        margin-left: 10px;
+       font-size: 15px;
    }
    .fa-star{
     font-size: 10px;
@@ -120,6 +124,14 @@ h1{
    .details{
        margin: 0;
        font: 0.8em;
+   }
+
+   .Popular-Collections{
+       display: grid;
+       grid-template-columns: repeat(3,1fr);
+       grid-row-gap: 25px;
+       margin-left: 135px;
+       margin-right: 125px;
    }
 
 
