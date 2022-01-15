@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* --------------
+common style
+------------------------------  */
+body{
+    /* margin-top: 40px; */
+    margin-left: 30px;
+    font-family:'Poppins', sans-serif;
+    background-color: #f3f1ff;
+}
+/* ---------------------
+header style
+----------------------------  */
+.page-title{
+    font-size: 24px;
+    margin-top: 60px;
+    margin-bottom: 0;
+    margin-left: 120px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.4em;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+nav{
+    display: flex;
+    justify-content: end;
+}
+.navigation{
+    margin-right: 60px;
+}
+
+/* first-part of the top  */
+.container{
+    margin-top: 50px;
+}
+.first-part{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 80px;
+}
+.influencer-details{
+    width: 582px;
+    height: 270px;
+    padding-left: 120px;
+}
+h1{
+    font-size: 52px;
+}
+.first-button{
+    text-decoration: none;
+    background-color: rgb(197, 57, 252);
+    padding: 11px 40px;
+    border-radius: 20px;
+    color: white;
+    font-size: 1.3em;
+}
+.fa-arrow-right{
+    margin-left: 5px;
+}
+.main-camera{
+    height: 440px;
+    width: 440px;
+    padding: 10px;
+    border: 2px solid #F1E4FF;
+    border-radius: 220px;
+}
+
+/*------------------
+    company logo
+    -------------------------------  */
+    .company-logo{
+        margin: 30px 100px;
+    }
+    .logos{
+        display: grid;
+        grid-template-columns:repeat(7,1fr);
+    }
+
+/*-----------------
+   collection  part  
+   -----------------------------*/
+
+   .collection-title{
+       text-align: center;
+   }
+   .collection{
+    width: 300px;
+    height: 500px;
+    box-shadow: 2px 2px 2px 2px gray;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+}
+
+   .item-name{
+       margin-bottom: 0;
+   }
+   .rate{
+       font-size: 30px;
+       margin: 0;
+   }
+   .gear-info{
+       margin-top: 10px;
+   }
+   span{
+       margin-left: 10px;
+   }
+   .fa-star{
+    font-size: 10px;
+}
+   .fa-star.filled{
+    color: rgb(255, 123, 0);
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+   .details{
+       margin: 0;
+       font: 0.8em;
+   }
+
+
+
